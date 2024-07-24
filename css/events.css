@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 75px;
+    margin-right: 10px;
+}
+
+.logo h1 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav ul li:hover {
+    transition: 0.3s all ease;
+    transform: scale(1.1);
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1em;
+}
+
+.propose-idea {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+main{
+    margin-top: 10px;
+}
+
+.events h1{
+    text-align: center;
+    margin: 20px;
+}
+.latest-events{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+.latest-events a{
+    text-decoration: none;
+}
+.event-info{
+    height: 80vh;
+    width: 22vw;
+    border: 1px solid green;
+}
+.event-info .event-img img{
+    width: 22vw;
+    height: 25vh;
+}
+.event-info h3{
+    text-align: center;
+    font-size: x-large;
+    color: #333;
+}
+.event-info h3,p{
+    text-align: center;
+    text-decoration: none;
+}
+.event-info .p1{
+    font-size: 13px;
+    color: #666;
+    opacity: 0.5;
+    margin-top: 10px;
+}
+.event-info .p2{
+    font-size: 16px;
+    font-weight:500;
+    color: #666;
+}
+.event-info .p3{
+    font-size: 13px;
+    font-weight:700;
+     color: #666;
+     margin-top: 50px;
+}
+.event-info:hover {
+    .event-img {
+        transition: 0.3s all ease;
+        opacity: 0.6;
+        translate: 0px -5px;
+    }
+}

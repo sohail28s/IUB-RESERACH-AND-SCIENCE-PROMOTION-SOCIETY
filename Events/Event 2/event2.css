@@ -79,8 +79,10 @@ main {
 }
 
 .bg {
-    background-image: url(images/Group1.jpg);
-    background-size: cover;
+    background-image: url(images/grid_img3.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
     height: 80vh;
 }
 
@@ -109,7 +111,6 @@ main {
     transform: scale(1.05);
     transition: 0.2s ease-in-out;
 }
-
 .grid {
     display: grid;
     gap: 10px;
@@ -117,23 +118,7 @@ main {
     grid-template-areas:
         "I1 I2 I3"
         "I4 I5 I6"
-        "I7 I8 I9"
-        "I10 I11 I12"
-        "I13 I14 I15";
-}
-
-.grid-2 {
-    display: grid;
-    gap: 10px;
-    margin: 10px;
-    grid-template-areas:
-        "I1 I1 I1"
-        "I2 I3 I4"
-        "I5 I6 I7"
-        "I8 I9 I10"
-        "I11 I12 I13"
-        "I14 I15 --";
-
+        "I7 I8 I9" ;
 }
 
 .item1 {
@@ -163,38 +148,13 @@ main {
 .item7 {
     grid-area: I7;
 }
-
 .item8 {
     grid-area: I8;
 }
-
 .item9 {
     grid-area: I9;
 }
 
-.item10 {
-    grid-area: I10;
-}
-
-.item11 {
-    grid-area: I11;
-}
-
-.item12 {
-    grid-area: I12;
-}
-
-.item13 {
-    grid-area: I13;
-}
-
-.item14 {
-    grid-area: I14;
-}
-
-.item15 {
-    grid-area: I15;
-}
 
 
 

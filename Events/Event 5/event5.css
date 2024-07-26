@@ -77,11 +77,13 @@ main {
 .top p {
     line-height: 2;
 }
-.bg{
+
+.bg {
     display: grid;
     place-items: center;
 }
-.bg img{
+
+.bg img {
     height: 80vh;
     margin: auto;
 }
@@ -99,7 +101,8 @@ main {
     margin: 100px 1px 30px 0px;
 
 }
-.he2{
+
+.he2 {
     margin: 100px 1px 30px 0px;
 }
 
@@ -110,159 +113,122 @@ main {
     height: 100%;
 }
 
-/* .grid-image:hover {
+.grid-image:hover {
     transform: scale(1.05);
     transition: 0.2s ease-in-out;
-} */
+}
 
 .grid {
     display: grid;
     gap: 15px;
     margin: 10px;
-    grid-template-areas: 
-    "item1 item2 item3"
-    "item4 item5 item6"
-    "item7 item8 item9"
-    "item10 item11 item12"
-    "item13 item14 item15"
-    "item16 item17 item18"
-    "item19 item20 item21"
-    "item22 item23 item24"
-    "item25 item26 item27"
-    "item28 item29 item30"
-    "item31 item32 item33"
-    "item34 item35 item36"
-    "item37 item38 item39"
-    "item40 item41 item42"
-    "item43 item44 item45"
-    "item46 item47 item48"
-    "item49 item50 item51"
-    "item52 item52 item52";
-       
+    grid-template-areas:
+       "I1"
+       "I2"
+       "I3";
 }
 
-.item1 { grid-area: I1; }
-.item2 { grid-area: I2; }
-.item3 { grid-area: I3; }
-.item4 { grid-area: I4; }
-.item5 { grid-area: I5; }
-.item6 { grid-area: I6; }
-.item7 { grid-area: I7; }
-.item8 { grid-area: I8; }
-.item9 { grid-area: I9; }
-.item10 { grid-area: I10; }
-.item11 { grid-area: I11; }
-.item12 { grid-area: I12; }
-.item13 { grid-area: I13; }
-.item14 { grid-area: I14; }
-.item15 { grid-area: I15; }
-.item16 { grid-area: I16; }
-.item17 { grid-area: I17; }
-.item18 { grid-area: I18; }
-.item19 { grid-area: I19; }
-.item20 { grid-area: I20; }
-.item21 { grid-area: I21; }
-.item22 { grid-area: I22; }
-.item23 { grid-area: I23; }
-.item24 { grid-area: I24; }
-.item25 { grid-area: I25; }
-.item26 { grid-area: I26; }
-.item27 { grid-area: I27; }
-.item28 { grid-area: I28; }
-.item29 { grid-area: I29; }
-.item30 { grid-area: I30; }
-.item31 { grid-area: I31; }
-.item32 { grid-area: I32; }
-.item33 { grid-area: I33; }
-.item34 { grid-area: I34; }
-.item35 { grid-area: I35; }
-.item36 { grid-area: I36; }
-.item37 { grid-area: I37; }
-.item38 { grid-area: I38; }
-.item39 { grid-area: I39; }
-.item40 { grid-area: I40; }
-.item41 { grid-area: I41; }
-.item42 { grid-area: I42; }
-.item43 { grid-area: I43; }
-.item44 { grid-area: I44; }
-.item45 { grid-area: I45; }
-.item46 { grid-area: I46; }
-.item47 { grid-area: I47; }
-.item48 { grid-area: I48; }
-.item49 { grid-area: I49; }
-.item50 { grid-area: I50; }
-.item51 { grid-area: I51; }
-.item52 { grid-area: I52; }
+.item1 {
+    grid-area: I1;
+}
+
+.item2 {
+    grid-area: I2;
+}
+
+.item3 {
+    grid-area: I3;
+}
 
 
 
-footer{
+
+
+
+footer {
     height: 100vh;
     background-color: #1c3b70;
 
 }
-.footer-container{
+
+.footer-container {
     height: 70vh;
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
 }
-.footer-logo{
+
+.footer-logo {
     width: max-content;
     margin: 70px 0px 0px 0px;
 }
-.rsps-logo img{
+
+.rsps-logo img {
     width: 300px;
 }
-.footer-links{
+
+.footer-links {
     margin: 50px 0px 0px 0px;
     text-align: left;
 }
-.footer-links .links h3{
+
+.footer-links .links h3 {
     color: #fff;
     font-size: 20px;
     font-weight: 100;
 }
-.footer-links .links a{
-    color:rgba(255, 255, 255, 0.7);
+
+.footer-links .links a {
+    color: rgba(255, 255, 255, 0.7);
     text-decoration: none;
     list-style: none;
 }
-.footer-links .links a :hover{
+
+.footer-links .links a :hover {
     color: #fff;
-    
-    
+
+
 }
-.Follow-us img{
+
+.Follow-us img {
     padding: 5px;
     width: 50px;
 }
-.footer-contact{
+
+.footer-contact {
     margin-top: 50px;
     margin-left: -50px;
 }
-.footer-contact h3,h4{
+
+.footer-contact h3,
+h4 {
     color: #fff;
     font-size: 20px;
     font-weight: 100;
 }
-.footer-contact p{
+
+.footer-contact p {
     color: rgba(255, 255, 255, 0.7);
 }
-.footer-bottom{
+
+.footer-bottom {
     height: 20vh;
     background: transparent;
     display: grid;
     place-items: center;
     margin-top: -5px;
 }
-.footer-bottom h3,h4{
+
+.footer-bottom h3,
+h4 {
     color: rgba(255, 255, 255, 0.7);
     font-weight: 100;
 }
-.footer-bottom p{
+
+.footer-bottom p {
     color: rgba(255, 255, 255, 0.7);
 }
-.footer-bottom a{
+
+.footer-bottom a {
     color: #fff;
     text-decoration: none;
 }

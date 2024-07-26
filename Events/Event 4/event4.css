@@ -1,0 +1,289 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 75px;
+    margin-right: 10px;
+}
+
+.logo h1 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav ul li:hover {
+    transition: 0.3s all ease;
+    transform: scale(1.1);
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1em;
+}
+
+.propose-idea {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+main {
+    margin: 5vw;
+}
+
+.top {
+    height: 100vh;
+}
+
+.top h1 {
+    color: black;
+    text-align: center;
+    background: #1c3b70;
+    padding: 10px;
+    color: #fff;
+
+}
+
+.top p {
+    line-height: 2;
+}
+.bg{
+    display: grid;
+    place-items: center;
+}
+.bg img{
+    height: 80vh;
+    margin: auto;
+}
+
+.content p {
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+.glimpses {
+    margin-top: 20px;
+}
+
+.glimpses h2 {
+    margin: 100px 1px 30px 0px;
+
+}
+.he2{
+    margin: 100px 1px 30px 0px;
+}
+
+.grid-image {
+    border-radius: 10px;
+    transition: 0.2s ease-in-out;
+    width: 100%;
+    height: 100%;
+}
+
+.grid-image:hover {
+    transform: scale(1.05);
+    transition: 0.2s ease-in-out;
+}
+
+.grid {
+    display: grid;
+    gap: 15px;
+    margin: 10px;
+    grid-template-areas:
+        "I1 I1 I1"
+        "I2 I3 I4"
+        "I5 I6 I7"
+        "I8 I9 I10"
+        "I11 I12 I13"
+        "I14 I15 I16"
+        "I17 I18 I19";
+       
+}
+
+.grid-2 {
+    display: grid;
+    gap: 10px;
+    margin: 10px;
+    grid-template-areas:
+        "I1 I2 I3"
+        "I4 I5 I6"
+        "I7 I8 I9";
+        
+        
+        
+
+}
+
+.item1 {
+    grid-area: I1;
+}
+
+.item2 {
+    grid-area: I2;
+}
+
+.item3 {
+    grid-area: I3;
+}
+
+.item4 {
+    grid-area: I4;
+}
+
+.item5 {
+    grid-area: I5;
+}
+
+.item6 {
+    grid-area: I6;
+}
+
+.item7 {
+    grid-area: I7;
+}
+
+.item8 {
+    grid-area: I8;
+}
+
+.item9 {
+    grid-area: I9;
+}
+
+.item10 {
+    grid-area: I10;
+}
+
+.item11 {
+    grid-area: I11;
+}
+
+.item12 {
+    grid-area: I12;
+}
+
+.item13 {
+    grid-area: I13;
+}
+
+.item14 {
+    grid-area: I14;
+}
+
+.item15 {
+    grid-area: I15;
+}
+.item16 {
+    grid-area: I16;
+}
+.item17 {
+    grid-area: I17;
+}
+.item18 {
+    grid-area: I18;
+}
+.item19 {
+    grid-area: I19;
+}
+
+
+footer{
+    height: 100vh;
+    background-color: #1c3b70;
+
+}
+.footer-container{
+    height: 70vh;
+    display: flex;
+    justify-content:space-evenly;
+}
+.footer-logo{
+    width: max-content;
+    margin: 70px 0px 0px 0px;
+}
+.rsps-logo img{
+    width: 300px;
+}
+.footer-links{
+    margin: 50px 0px 0px 0px;
+    text-align: left;
+}
+.footer-links .links h3{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 100;
+}
+.footer-links .links a{
+    color:rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    list-style: none;
+}
+.footer-links .links a :hover{
+    color: #fff;
+    
+    
+}
+.Follow-us img{
+    padding: 5px;
+    width: 50px;
+}
+.footer-contact{
+    margin-top: 50px;
+    margin-left: -50px;
+}
+.footer-contact h3,h4{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 100;
+}
+.footer-contact p{
+    color: rgba(255, 255, 255, 0.7);
+}
+.footer-bottom{
+    height: 20vh;
+    background: transparent;
+    display: grid;
+    place-items: center;
+    margin-top: -5px;
+}
+.footer-bottom h3,h4{
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 100;
+}
+.footer-bottom p{
+    color: rgba(255, 255, 255, 0.7);
+}
+.footer-bottom a{
+    color: #fff;
+    text-decoration: none;
+}

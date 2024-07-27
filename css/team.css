@@ -105,6 +105,7 @@ main {
     height: max-content;
     width: 17vw;
     background-color: rgb(111, 111, 178);
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -147,73 +148,90 @@ main {
 
 
 
-footer{
+footer {
     height: 100vh;
     background-color: #1c3b70;
 
 }
-.footer-container{
+
+.footer-container {
     height: 70vh;
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
 }
-.footer-logo{
+
+.footer-logo {
     width: max-content;
     margin: 70px 0px 0px 0px;
 }
-.rsps-logo img{
+
+.rsps-logo img {
     width: 300px;
 }
-.footer-links{
+
+.footer-links {
     margin: 50px 0px 0px 0px;
     text-align: left;
 }
-.footer-links .links h3{
+
+.footer-links .links h3 {
     color: #fff;
     font-size: 20px;
     font-weight: 100;
 }
-.footer-links .links a{
-    color:rgba(255, 255, 255, 0.7);
+
+.footer-links .links a {
+    color: rgba(255, 255, 255, 0.7);
     text-decoration: none;
     list-style: none;
 }
-.footer-links .links a :hover{
+
+.footer-links .links a :hover {
     color: #fff;
-    
-    
+
+
 }
-.Follow-us img{
+
+.Follow-us img {
     padding: 5px;
     width: 50px;
 }
-.footer-contact{
+
+.footer-contact {
     margin-top: 50px;
     margin-left: -50px;
 }
-.footer-contact h3,h4{
+
+.footer-contact h3,
+h4 {
     color: #fff;
     font-size: 20px;
     font-weight: 100;
 }
-.footer-contact p{
+
+.footer-contact p {
     color: rgba(255, 255, 255, 0.7);
 }
-.footer-bottom{
+
+.footer-bottom {
     height: 20vh;
     background: transparent;
     display: grid;
     place-items: center;
     margin-top: -5px;
 }
-.footer-bottom h3,h4{
+
+.footer-bottom h3,
+h4 {
     color: rgba(255, 255, 255, 0.7);
     font-weight: 100;
 }
-.footer-bottom p{
+
+.footer-bottom p {
     color: rgba(255, 255, 255, 0.7);
 }
-.footer-bottom a{
+
+.footer-bottom a {
     color: #fff;
     text-decoration: none;
 }

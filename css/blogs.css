@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: rgb(205, 201, 201);
+  
 }
 .blogs {
     height: 200vh;
@@ -10,9 +10,22 @@ body {
 }
 
 .upper {
-    display: grid;
-    place-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
     /* color: #fff; */
+    
+}
+.heading{
+    background-color: #1c3b70;
+   
+   
+    text-align: center;
+    
+    padding: 10px 459px 10px 459px;
+    color: #fff;
 }
 
 .upper a {
@@ -31,16 +44,25 @@ body {
 .blog-info {
     height: 45vh;
     width: 30vw;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     margin: 15px 10px;
     box-shadow: 8px 9px 21px -2px hsla(0, 0%, 93%, .19);
     border-radius: 20px;
     padding: 10px;
-    background-color: black;
-    color: #fff;
+     /* background-color:#1c3b70; */
+     /* background-color: black; */
+     /* background-color: #fff; */
+    /* color: #fff; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: black;
     box-sizing: border-box;
     margin: 10px;
+    box-sizing: border-box;
+    background: #f9f9f9;
+    transition: border 0.3s ease;
+    border: 2px solid #e0e0e0;
 }
+
 .blog-info p {
     font-size: 20px;
     font-weight: 400;
@@ -48,4 +70,9 @@ body {
 .blog a {
     text-decoration: none; 
     display: block;
+}
+.blog-info:hover{
+    transition: 0.3s all ease;
+    transform: scale(1.06);
+    border-color: #4b7bd0;
 }

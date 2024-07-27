@@ -19,7 +19,7 @@ header {
 }
 
 .logo img {
-    width: 75px; 
+    width: 75px;
     margin-right: 10px;
 }
 
@@ -38,35 +38,42 @@ nav ul {
 nav li {
     margin: 0 15px;
 }
-nav ul li:hover{
+
+nav ul li:hover {
     transition: 0.3s all ease;
     transform: scale(1.1);
 }
+
 nav a {
     text-decoration: none;
     color: #333;
     font-size: 1em;
 }
+
 .propose-idea {
     background-color: #007bff;
     color: #fff;
     padding: 10px 20px;
     border-radius: 4px;
 }
+
 .banner {
-    background-image: url(../images/Banner.jpeg); 
+    background-image: url(../images//Group1.jpg);
     background-size: cover;
-    background-position: center;
+   
     height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #fff;
+    
     text-align: center;
+    background-repeat: no-repeat;
 }
 
 .banner-content {
-    background-color: rgba(0, 0, 0, 0.4);
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
     padding: 20px;
     border-radius: 8px;
 }
@@ -80,6 +87,7 @@ nav a {
     font-size: 2em;
     margin: 10px;
 }
+
 .why {
     margin: 100px 0px 10px 0px;
     text-align: center;
@@ -88,7 +96,8 @@ nav a {
     text-align: center;
     background-color: #4b7bd0;
 }
-.container{
+
+.container {
     margin-bottom: 100px;
 }
 
@@ -96,32 +105,37 @@ nav a {
     display: flex;
     justify-content: center;
     flex-direction: row;
-   flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 
 
 
 .grid-item {
-     
+
     box-sizing: border-box;
     background: #f9f9f9;
-    transition: border 0.3s ease; 
-    margin: 20px; 
+    transition: border 0.3s ease;
+    margin: 20px;
     border: 2px solid #e0e0e0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
     padding: 20px;
     text-align: center;
-    height: 35vh; 
+    height: 35vh;
     width: 25vw;
 }
-.grid-item:hover{
-    
-    border-color: #4b7bd0; 
-   
-    
+
+.grid-item:hover {
+
+    border-color: #4b7bd0;
+
+
 }
-.card-header, .card-logo, h3, p {
+
+.card-header,
+.card-logo,
+h3,
+p {
     margin: 0;
     padding: 0;
 }
@@ -134,27 +148,31 @@ nav a {
 }
 
 .card-logo img {
-    width: 50px; 
+    width: 50px;
     margin-right: 10px;
 }
+
 .card-header h3 {
     margin: 0;
     font-size: 1.2em;
 }
+
 .grid-item p {
     color: #666;
 }
 
 
 
-.events{
+.events {
     height: 110vh;
 }
-.events h1{
+
+.events h1 {
     text-align: center;
     background-color: #4b7bd0;
-    
+
 }
+
 .slider {
     position: relative;
     width: 100%;
@@ -213,73 +231,90 @@ nav a {
     background-color: #333;
 }
 
-footer{
+footer {
     height: 100vh;
     background-color: #1c3b70;
 
 }
-.footer-container{
+
+.footer-container {
     height: 70vh;
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
 }
-.footer-logo{
+
+.footer-logo {
     width: max-content;
     margin: 70px 0px 0px 0px;
 }
-.rsps-logo img{
+
+.rsps-logo img {
     width: 300px;
 }
-.footer-links{
+
+.footer-links {
     margin: 50px 0px 0px 0px;
     text-align: left;
 }
-.footer-links .links h3{
+
+.footer-links .links h3 {
     color: #fff;
     font-size: 20px;
     font-weight: 100;
 }
-.footer-links .links a{
-    color:rgba(255, 255, 255, 0.7);
+
+.footer-links .links a {
+    color: rgba(255, 255, 255, 0.7);
     text-decoration: none;
     list-style: none;
 }
-.footer-links .links a :hover{
+
+.footer-links .links a :hover {
     color: #fff;
-    
-    
+
+
 }
-.Follow-us img{
+
+.Follow-us img {
     padding: 5px;
     width: 50px;
 }
-.footer-contact{
+
+.footer-contact {
     margin-top: 50px;
     margin-left: -50px;
 }
-.footer-contact h3,h4{
+
+.footer-contact h3,
+h4 {
     color: #fff;
     font-size: 20px;
     font-weight: 100;
 }
-.footer-contact p{
+
+.footer-contact p {
     color: rgba(255, 255, 255, 0.7);
 }
-.footer-bottom{
+
+.footer-bottom {
     height: 20vh;
     background: transparent;
     display: grid;
     place-items: center;
     margin-top: -5px;
 }
-.footer-bottom h3,h4{
+
+.footer-bottom h3,
+h4 {
     color: rgba(255, 255, 255, 0.7);
     font-weight: 100;
 }
-.footer-bottom p{
+
+.footer-bottom p {
     color: rgba(255, 255, 255, 0.7);
 }
-.footer-bottom a{
+
+.footer-bottom a {
     color: #fff;
     text-decoration: none;
 }

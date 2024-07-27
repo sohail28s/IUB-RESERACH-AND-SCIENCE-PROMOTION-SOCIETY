@@ -1,0 +1,49 @@
+main {
+    height: 200vh;
+    margin: 0px 100px 0px 100px;
+    line-height: 1.5;
+}
+
+.about h1 {
+    text-align: center;
+    background-color: #1c3b70;
+    margin: 10px 0px 10px 0px;
+    color: #fff;
+    padding: 15px;
+}
+
+.about h2 {
+    text-align: center;
+    padding: 15px;
+    width: max-content;
+    margin: auto;
+}
+
+.mission {
+    margin: 50px 10px 10px 10px;
+}
+
+.mission h3 {
+    text-align: center;
+    background-color: #1c3b70;
+    color: #fff;
+    padding: 5px 10px 5px 10px;
+    width: max-content;
+    
+}
+
+li::marker {
+    color: #1c3b70;
+    
+}
+
+.content h3 {
+    text-align: center;
+    background-color: #1c3b70;
+    color: #fff;
+    padding: 5px 10px 5px 10px;
+    width: max-content;
+   
+    margin-top: 30px;
+    margin-bottom: 10px;
+}

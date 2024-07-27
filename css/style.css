@@ -81,31 +81,58 @@ nav a {
     margin: 10px;
 }
 .why {
+    margin: 100px 0px 10px 0px;
     text-align: center;
     font-size: 30px;
     animation: 0.3s ease-in-out;
+    text-align: center;
+    background-color: #4b7bd0;
 }
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 20px;
-    padding: 20px;
+.container{
+    margin-bottom: 100px;
 }
 
+.grid-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+   flex-wrap: wrap;
+}
+
+
+
 .grid-item {
-    background-color: #fff;
-    border: 1px solid #e0e0e0;
-    border-radius: 8px;
+     
+    box-sizing: border-box;
+    background: #f9f9f9;
+    transition: border 0.3s ease; 
+    margin: 20px; 
+    border: 2px solid #e0e0e0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
     padding: 20px;
     text-align: center;
+    height: 35vh; 
+    width: 25vw;
 }
+.grid-item:hover{
+    
+    border-color: #4b7bd0; 
+   
+    
+}
+.card-header, .card-logo, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
 .card-header {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 10px;
 }
+
 .card-logo img {
     width: 50px; 
     margin-right: 10px;
@@ -121,7 +148,7 @@ nav a {
 
 
 .events{
-    height: 100vh;
+    height: 110vh;
 }
 .events h1{
     text-align: center;
@@ -146,6 +173,8 @@ nav a {
 
 .slides img {
     width: 100%;
+    height: 50%;
+    object-fit: contain;
     border-radius: 10px;
 }
 

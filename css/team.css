@@ -21,11 +21,20 @@ main {
     overflow-x: auto;
     margin-top: 30px;
 }
-
 .board::-webkit-scrollbar {
-    width: 0;
-
+    width:0  ;
+    background-color: #333;
 }
+.board::-webkit-scrollbar-track {
+   background-color: #333;
+}
+.board::-webkit-scrollbar-thumb {
+    background-color: #333; 
+}
+.board::-webkit-scrollbar-thumb:hover {
+    background-color: #333;
+}
+
 
 .persons {
     height: 80vh;

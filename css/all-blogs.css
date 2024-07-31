@@ -58,3 +58,37 @@ nav ul a {
     line-height: 1.5;
 
 }
+
+@media (max-width: 820px) {
+    header{
+        font-size: 20px;
+    }
+    .name h1 {
+        font-size: 30px;
+    }
+    
+    .details {
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .article {
+        width: 90vw;
+        max-width: 820px;
+        padding: 10px;
+    }
+    
+    .article p {
+        margin-bottom: 1em;
+        line-height: 1.5;
+    
+    }
+
+
+
+
+
+
+
+
+
+}

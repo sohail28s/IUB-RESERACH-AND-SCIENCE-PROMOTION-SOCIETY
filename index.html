@@ -32,16 +32,7 @@
             </ul>
         </nav>
     </header>
-    <script>
-        const navToggle = document.querySelector('.nav-toggle');
-        const navList = document.querySelector('.nav-list');
-
-        navToggle.addEventListener('click', () => {
-            navList.classList.toggle('nav-list-visible');
-        });
-        
-    </script>
-   
+    <script src="js/script.js"></script>
     <section class="banner">
         <div class="banner-content">
             <h1>IUB Research & Science Promotion Society</h1>
@@ -136,41 +127,7 @@
                     <div class="indicator" onclick="currentSlide(5)"></div>
                 </div>
             </div>
-
-            <script>
-                let slideIndex = 0;
-                const slides = document.querySelector('.slides');
-                const indicators = document.querySelectorAll('.indicator');
-                const captions = [
-                "Badge Distribution Ceremony & Society Meeting",
-                    "General Members recruitment at Jinnah Hall",
-                    "World Bee Day at Faculty of Agriculture & Environment",
-                    "Event on World Biodiversity Day",
-                    "Event on Insects & Pollinators by IUB RSPS",
-                    "Webinar on Use of AI Tools"
-
-                ];
-
-                function showSlide(index) {
-                    slides.style.transform = `translateX(${-index * 100}%)`;
-                    document.querySelector('.caption').innerText = captions[index];
-                    indicators.forEach((indicator, i) => {
-                        indicator.classList.toggle('active', i === index);
-                    });
-                }
-
-                function nextSlide() {
-                    slideIndex = (slideIndex + 1) % indicators.length;
-                    showSlide(slideIndex);
-                }
-
-                function currentSlide(index) {
-                    slideIndex = index;
-                    showSlide(index);
-                }
-
-                setInterval(nextSlide, 4000);
-            </script>
+            <script src="js/slider.js"></script>
         </div>
     </main>
     <footer>

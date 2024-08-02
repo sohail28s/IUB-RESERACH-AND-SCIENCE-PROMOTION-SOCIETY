@@ -118,4 +118,27 @@ main {
 .item16 {
     grid-area: I16;
 }
+@media(max-width:820px){
+    .top {
+        height: 35vh;
+    }
+    .bg {
+        
+        height: 20vh;
+        width: 100%;
+    }
+    
+    .content p {
+        line-height: 1.4;
+        font-size: 14px;
+    }
+    .glimpses h2 {
+        font-size: 20px;
+    }
+    .grid {
+        display: flex;
+        flex-direction: column;
+    
+    }
+}
 

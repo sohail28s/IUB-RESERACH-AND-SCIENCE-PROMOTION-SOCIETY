@@ -508,7 +508,7 @@ h4 {
     }
 
     .nav-toggle i {
-        font-size: 2vw; /* Adjust size for medium screens */
+        font-size: 9vw; /* Adjust size for medium screens */
     }
     .nav-list li {
         margin: 0;
@@ -580,6 +580,7 @@ h4 {
     .slider {
         
         height: 30vh;
+        width: 90%;
     }
   
 footer {
@@ -698,6 +699,16 @@ h4 {
     text-decoration: none;
 }
  
+::-webkit-scrollbar {
+    width: 0;
+    display: none;
+    
+    
+}
+
+
+
+
 }
 
 

@@ -95,3 +95,32 @@ main {
 .item9 {
     grid-area: I9;
 }
+
+@media(max-width:820px){
+    .top {
+        height: 35vh;
+    }
+    .bg {
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 20vh;
+        width: 100%;
+    }
+    
+    .content p {
+        line-height: 1.4;
+        font-size: 14px;
+    }
+    .glimpses h2 {
+        font-size: 20px;
+    }
+    .grid {
+        grid-template-areas:
+            "I1 I1"
+            "I2 I3"
+            "I4 I5"
+            "I6 I7"
+            "I8 I9";
+    }
+
+}

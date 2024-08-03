@@ -79,6 +79,7 @@ main {
 
 .item1 {
     grid-area: I1;
+    max-height: 75vh;
 }
 
 .item2 {

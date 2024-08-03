@@ -28,6 +28,9 @@ main {
     height: 80vh;
     margin: auto;
 }
+.content{
+    margin-top: 10vh;
+}
 
 .content p {
     line-height: 1.5;

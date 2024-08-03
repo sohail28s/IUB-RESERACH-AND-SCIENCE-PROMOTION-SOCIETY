@@ -23,6 +23,7 @@ main {
     background-image: url(images/Group1.jpg);
     background-size: cover;
     height: 80vh;
+    
 }
 
 .content p {
@@ -140,14 +141,20 @@ main {
 @media (max-width:820px){
     .top {
         height: 35vh;
+       
     }
     .bg {
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
         height: 20vh;
+        margin: auto;
+    }
+    .content{
+        margin-top: 10vh;
     }
     
     .content p {
+        
         line-height: 1.4;
         font-size: 14px;
     }

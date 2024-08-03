@@ -84,22 +84,15 @@ main{
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-        /* margin: auto; */
         gap: 25px;
     }
     .latest-events a{
         text-decoration: none;
     }
     .event-info{
-        height: 50vh;
+        height: 65vh;
         width: 40vw;
-        border: 1px solid green;
-        /* display: flex;
-        justify-content:space-between;
-        align-items: center;
-        flex-direction: column;
-        gap: 10px; */
-    
+        border: 1px solid green;    
     }
     .event-info .event-img img{
         width: 40vw;

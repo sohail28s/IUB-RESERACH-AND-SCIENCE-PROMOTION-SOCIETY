@@ -80,7 +80,26 @@ main {
 .item3 {
     grid-area: I3;
 }
-
+@media(max-width:820px){
+    .top {
+        height: 50vh;
+    }
+    .bg {
+        display: flex;
+        justify-content: center;        
+    }
+    .bg img{
+        height: 40vh;
+    }
+    
+    .content p {
+        line-height: 1.4;
+        font-size: 14px;
+    }
+    .glimpses h2 {
+        font-size: 20px;
+    }
+}
 
 
 

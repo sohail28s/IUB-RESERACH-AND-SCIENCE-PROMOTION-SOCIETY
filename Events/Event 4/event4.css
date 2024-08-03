@@ -158,4 +158,59 @@ main {
     grid-area: I19;
 }
 
+@media(max-width:820px){
+    .top {
+        height: 50vh;
+    }
+    .bg {
+        display: flex;
+        justify-content: center;        
+    }
+    .bg img{
+        height: 40vh;
+    }
+    
+    .content p {
+        line-height: 1.4;
+        font-size: 14px;
+    }
+    .glimpses h2 {
+        font-size: 20px;
+    }
+    .grid {
+        display: grid;
+        gap: 15px;
+        margin: 10px;
+        grid-template-areas:
+            "I1 I1"
+            "I2 I3"
+            "I4 I5"
+            "I6 I7"
+            "I8 I9"
+            "I10 I11"
+            "I12 I13"
+            "I14 I15"
+            "I16 I17"
+            "I18 I19";
+    }
+    
+    
+    .grid-2 {
+        display: grid;
+        gap: 10px;
+        margin: 10px;
+        grid-template-areas:
+            "I1 I2"
+            "I3 I4"
+            "I5 I6"
+            "I7 I8"
+            "I9 --";
+            
+    
+    }
+    .grid-image {
+        object-fit: contain;
+    }
+    
+}
 

@@ -169,7 +169,9 @@ main {
     .bg img{
         height: 40vh;
     }
-    
+    .content {
+        margin-top: 10vh;
+    }
     .content p {
         line-height: 1.4;
         font-size: 14px;
@@ -209,7 +211,7 @@ main {
     
     }
     .grid-image {
-        object-fit: contain;
+        object-fit: cover;
     }
     
 }

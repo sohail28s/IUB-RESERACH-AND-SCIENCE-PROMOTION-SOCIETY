@@ -38,12 +38,6 @@ nav ul a {
     line-height: 0.4;
     font-size: 17px;
 }
-
-/* .container {
-    display: grid;
-    place-items: center;
-} */
-
 .article {
     font-size: 20px;
     width: 70vw;
@@ -84,13 +78,5 @@ nav ul a {
         line-height: 1.5;
     
     }
-
-
-
-
-
-
-
-
 
 }

@@ -16,7 +16,6 @@ main{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    /* margin: auto; */
     gap: 25px;
 }
 .latest-events a{

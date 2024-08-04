@@ -34,8 +34,8 @@ This project is a website developed for the IUB Research and Science Promotion S
 |-- events/<br>
 |   |-- event1.html         # Event page 1<br>
 |   |-- event2.html         # Event page 2<br>
-|   `-- ...                 # Additional event pages <br>
-|-- blogs/<br>
+|   `-- ...                 # Additional event pages 
+|-- blogs.html
 |   |-- blog1.html          # Blog page 1<br>
 |   |-- blog2.html          # Blog page 2<br>
 |   `-- ...                 # Additional blog pages<br>

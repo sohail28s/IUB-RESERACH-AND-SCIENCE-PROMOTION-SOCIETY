@@ -30,22 +30,22 @@ This project is a website developed for the IUB Research and Science Promotion S
 
 # Project Structure
 
-|-- index.html              # Main landing page
-|-- events/
-|   |-- event1.html         # Event page 1
-|   |-- event2.html         # Event page 2
-|   `-- ...                 # Additional event pages
-|-- blogs/
-|   |-- blog1.html          # Blog page 1
-|   |-- blog2.html          # Blog page 2
-|   `-- ...                 # Additional blog pages
-|-- about.html              # About the society
-|-- team.html               # Team members and advisors
+|-- index.html              # Main landing page <br>
+|-- events/<br>
+|   |-- event1.html         # Event page 1<br>
+|   |-- event2.html         # Event page 2<br>
+|   `-- ...                 # Additional event pages <br>
+|-- blogs/<br>
+|   |-- blog1.html          # Blog page 1<br>
+|   |-- blog2.html          # Blog page 2<br>
+|   `-- ...                 # Additional blog pages<br>
+|-- about.html              # About the society<br>
+|-- team.html               # Team members and advisors<br>
 |-- assets/
-|   |-- css/
-|   |   `-- styles.css      # CSS files
+|   |-- css/<br>
+|   |   `-- styles.css      # CSS files<br>
 |   |-- js/
-|   |   `-- scripts.js      # JavaScript files
+|   |   `-- scripts.js      # JavaScript files<br>
 |   |-- images/
-|   |   `-- ...             # Image files
-`-- README.md               # This README file
+|   |   `-- ...             # Image files<br>
+`-- README.md               # This README file<br>

@@ -35,11 +35,11 @@ This project is a website developed for the IUB Research and Science Promotion S
 |   |-- event1.html         # Event page 1<br>
 |   |-- event2.html         # Event page 2<br>
 |   `-- ...                 # Additional event pages 
-|-- blogs.html
+|-- blogs/<br>
 |   |-- blog1.html          # Blog page 1<br>
 |   |-- blog2.html          # Blog page 2<br>
 |   `-- ...                 # Additional blog pages<br>
-|-- about.html              # About the society<br>
+|-- about.html              # About the society and contact page<br>
 |-- team.html               # Team members and advisors<br>
 |-- assets/
 |   |-- css/<br>

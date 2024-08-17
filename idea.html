@@ -32,7 +32,7 @@
         </nav>
         <script src="js/script.js"></script>
     </header>
-    <main>
+    <!-- <main>
         <div class="idea">
             <h1>Propose an Idea</h1>
             <p>We value your input! Please use the form below to propose your ideas.</p>
@@ -41,6 +41,33 @@
                  frameborder="0" marginheight="0" marginwidth="0">Loading…
                  <script src="js/code-hide.js"></script></iframe>
         </div>
+    </main> -->
+    <main>
+        <div class="form-container">
+            <h2>Propose an Idea</h2>
+            <form id="form">
+                <div class="field">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name" required>
+                </div>
+                <div class="field">
+                    <label for="program">About yourself:</label>
+                    <input type="text" name="about" id="about" placeholder="Enter your details" required>
+                </div>
+                <div class="field">
+                    <label for="program">Contact info:</label>
+                    <input type="text" name="contact" id="contact" placeholder="Enter your contact info" required>
+                </div>
+                <div class="field">
+                    <label for="article">Idea/suggestion:</label>
+                    <textarea name="article" id="idea" placeholder="Enter your suggestions..." rows="10"
+                        required></textarea>
+                </div>
+                <input type="submit" id="button" value="Submit" class="sb">
+            </form>
+        </div>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="/js/idea.js"></script>
     </main>
     <footer>
         <div class="footer-container">

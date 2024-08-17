@@ -1,0 +1,153 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    background-color: darkgray;
+}
+
+header {
+    padding: 2px;
+    background-color: #1c3b70;
+    box-shadow: 0 2px 4px #1c3b70 0.9;
+    font-size: 25px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: #fff;
+}
+.form-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 500px;
+    width: 100%;
+    transition: all 0.3s ease;
+    margin: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.form-container:hover {
+
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #007BFF;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.field {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #555;
+}
+
+input,
+select,
+textarea {
+    width: 90%;
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    border-color: #007BFF;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+    outline: none;
+    background-color: #fff;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    padding: 12px 20px;
+    background-color: #1c3b70;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: #1c3b70 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+@media(max-width: 820px) {
+    body {
+        margin: auto;
+    }
+
+    .form-container {
+        max-width: 80vw;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    input,
+    select,
+    textarea {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 10px;
+    }
+    ::-webkit-scrollbar {
+        width: 0;
+        display: none;
+
+
+    }
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #666;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #444;
+}

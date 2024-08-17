@@ -16,6 +16,15 @@ body {
     align-items: center;
     flex-direction: column;
 }
+.upper .sb{
+    font-size: 1em; 
+    background-color: #4b7bd0;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: none;
+    margin: 3vh;
+}
 
 .heading {
     background-color: #1c3b70;

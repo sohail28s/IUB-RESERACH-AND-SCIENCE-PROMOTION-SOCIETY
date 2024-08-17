@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Submission Form</title>
+    <link rel="stylesheet" href="/css/blog-submit.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <a href="/index.html">Home</a>
+                <a href="/blogs.html">All Blogs</a>
+            </ul>
+        </nav>
+    </header>
+    <div class="form-container">
+        <h2>Submit Your Blog</h2>
+        <form id="form">
+            <div class="field">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" placeholder="Enter your name" required>
+            </div>
+            <div class="field">
+                <label for="program">Program:</label>
+                <input type="text" name="program" id="program" placeholder="Enter your program" required>
+            </div>
+            <div class="field">
+                <label for="subject">Subject:</label>
+                <input type="text" name="subject" id="subject" placeholder="Enter your subject" required>
+            </div>
+            <div class="field">
+                <label for="semester">Semester:</label>
+                <input type="text" name="semester" id="semester" placeholder="Enter your semester" required>
+            </div>
+            <div class="field">
+                <label for="semester">University:</label>
+                <input type="text" name="university" id="university" placeholder="Enter university name" required>
+            </div>
+            <div class="field">
+                <label for="semester">Article Topic:</label>
+                <input type="text" name="topic" id="topic" placeholder="Enter Topic of Article" required>
+            </div>
+            <div class="field">
+                <label for="article">Article Content:</label>
+                <textarea name="article" id="article" placeholder="Write your article here..." rows="10"
+                    required></textarea>
+            </div>
+            <input type="submit" id="button" value="Submit">
+        </form>
+    </div>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="/js/blog-submit.js"></script>
+
+</body>
+</html>

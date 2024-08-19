@@ -52,6 +52,40 @@ nav ul a {
     line-height: 1.5;
 
 }
+.share-container {
+    text-align: center;
+    margin: 10px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; 
+    margin-top: 10px;
+}
+
+.icon {
+    text-decoration: none;
+    color: #000; 
+    font-size: 40px; 
+}
+
+.icon.facebook {
+    color: #3b5998;
+}
+
+.icon.linkedin {
+    color: #0077B5;
+}
+
+.icon.whatsapp {
+    color: #25D366;
+}
+
+.icon.copy-link {
+    color: #000;
+}
 
 ::-webkit-scrollbar {
     width: 10px;

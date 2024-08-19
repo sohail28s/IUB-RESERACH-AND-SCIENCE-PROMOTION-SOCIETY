@@ -57,18 +57,20 @@ body {
     border-radius: 20px;
     padding: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    color: black;
     box-sizing: border-box;
     margin: 10px;
     box-sizing: border-box;
     background: #f9f9f9;
     transition: border 0.3s ease;
     border: 2px solid #e0e0e0;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 }
 
 .blog-info p {
     font-size: 20px;
     font-weight: 400;
+    
 }
 
 .blog a {
@@ -79,7 +81,6 @@ body {
 .blog-info:hover {
     transition: 0.3s all ease;
     transform: scale(1.06);
-    border-color: #4b7bd0;
 }
 
 @media (max-width:820px) {

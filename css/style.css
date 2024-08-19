@@ -608,6 +608,7 @@ h4 {
         top: 0vh;
         right: 24vw;
         color: #fff;
+        
 
     }
 
@@ -620,10 +621,16 @@ h4 {
     .Follow-us img {
         padding: 5px;
         width: 50px;
+        
+        
+    }
+    .logos{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
     }
 
     .footer-contact {
-
         display: none;
     }
 

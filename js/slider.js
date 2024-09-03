@@ -30,4 +30,4 @@
                     showSlide(index);
                 }
 
-                setInterval(nextSlide, 4000);
+                setInterval(nextSlide, 2500);

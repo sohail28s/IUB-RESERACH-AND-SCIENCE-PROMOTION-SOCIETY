@@ -556,7 +556,7 @@ h4 {
     .footer-container {
         height: 60vh;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-around;
     }
 
     .footer-logo {
@@ -577,6 +577,7 @@ h4 {
         color: #fff;
         font-size: 20px;
         font-weight: 100;
+        margin-left: 18vw;
     }
 
     .footer-links .links h4 {
@@ -584,6 +585,7 @@ h4 {
         font-size: 20px;
         font-weight: 100;
         display: block;
+        
     }
 
     .footer-links .links a {
@@ -599,7 +601,10 @@ h4 {
     }
 
     .footer-links .links ul li {
-        margin: 4px;
+        margin-left: 18vw;
+        line-height: 1.5;
+
+        
 
 
     }
@@ -609,8 +614,6 @@ h4 {
         top: 0vh;
         right: 24vw;
         color: #fff;
-        
-
     }
 
     .Follow-us h4 {
@@ -628,6 +631,7 @@ h4 {
     .logos{
         display: flex;
         justify-content: center;
+        align-items: center;
         flex-direction: row;
     }
 
@@ -677,6 +681,33 @@ h4 {
         text-decoration: none;
     }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
     ::-webkit-scrollbar {
         width: 0;
         display: none;

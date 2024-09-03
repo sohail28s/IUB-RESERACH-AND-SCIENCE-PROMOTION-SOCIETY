@@ -92,7 +92,6 @@ nav a {
     justify-content: center;
     align-items: center;
     color: #fff;
-
     text-align: center;
     background-repeat: no-repeat;
 }
@@ -115,7 +114,7 @@ nav a {
 }
 
 .why {
-    margin: 100px 0px 10px 0px;
+    /* margin: 100px 0px 10px 0px; */
     text-align: center;
     font-size: 30px;
     animation: 0.3s ease-in-out;
@@ -193,6 +192,7 @@ p {
 
 .activities {
     height: 110vh;
+    margin: auto;
 }
 
 .activities h1 {
@@ -473,12 +473,13 @@ h4 {
     }
 
     .banner {
-        background-size: contain;
+        /* background-size: contain; */
         display: flex;
         text-align: center;
         justify-content: flex-start;
         flex-direction: column;
         align-items: flex-start;
+        height: 25vh;
     }
 
     .banner-content {
@@ -502,7 +503,7 @@ h4 {
     }
 
     .why {
-        margin: -50vh 0px 10px 0px;
+        /* margin: -50vh 0px 10px 0px; */
         text-align: center;
         font-size: 30px;
         animation: 0.3s ease-in-out;
@@ -582,13 +583,13 @@ h4 {
         color: #fff;
         font-size: 20px;
         font-weight: 100;
+        display: block;
     }
 
     .footer-links .links a {
         color: rgba(255, 255, 255, 0.7);
         text-decoration: none;
         list-style: none;
-
     }
 
     .footer-links .links a :hover {
@@ -640,6 +641,7 @@ h4 {
         font-size: 19px;
         font-weight: 100;
         line-height: 0.7;
+        
     }
 
     .footer-contact p {

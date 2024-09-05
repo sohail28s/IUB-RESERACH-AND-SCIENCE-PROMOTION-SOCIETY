@@ -412,12 +412,13 @@ h4 {
 }
 
 
+
 @media (max-width:820px) {
     body {
         margin: 0;
         padding: 0;
     }
-
+/* 
     .nav-toggle {
         display: flex;
         background-color: none;
@@ -470,7 +471,248 @@ h4 {
     .nav-list li {
         margin: 0;
         border-bottom: 1px solid #ddd;
-    }
+    } */
+
+
+/* Mobile View */
+/* .nav-toggle {
+    display: flex;
+    background-color: transparent;
+    color: #333;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.nav-list {
+    display: none;
+    flex-direction: column;
+    width: 75%;
+    max-width: 300px;
+    position: fixed;
+    top: 60px;
+    right: -100%;
+    background: linear-gradient(135deg, #4b7bd0, #4b97d0);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    padding: 20px 0;
+    border-radius: 8px 0 0 8px;
+    transition: right 0.3s ease;
+}
+
+.nav-list.nav-list-visible {
+    display: flex;
+    right: 0;
+}
+
+.nav-list li {
+    margin: 0;
+    border-bottom: 1px solid #ddd;
+    transition: background-color 0.3s ease;
+}
+
+.nav-list li a {
+    padding: 15px;
+    display: block;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.nav-list li:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+nav ul li:last-child {
+    border-bottom: none;
+}
+
+body.nav-open {
+    overflow: hidden;
+}
+
+.logo h1 {
+    font-size: 1.2em;
+    color: #4b7bd0;
+}
+
+.nav-toggle i {
+    font-size: 9vw;
+    color: #4b7bd0;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile View 
+.nav-toggle {
+    display: flex;
+    background-color: transparent;
+    /* color: #333; 
+    color: red;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.nav-list {
+    display: none;
+    flex-direction: column;
+    width: 75%;
+    max-width: 300px;
+    position: fixed;
+    top: 40%;
+    left:12%;
+    background: linear-gradient(135deg, #4b7bd0, #4b97d0);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    padding: 20px 0;
+    border-radius: 8px 0 0 8px;
+    transform: translateY(-50%); 
+
+    transition: right 0.3s ease;
+}
+
+.nav-list.nav-list-visible {
+    display: flex;
+    right: 0;
+}
+
+.nav-list li {
+    margin: 0;
+    border-bottom: 1px solid #ddd;
+    transition: background-color 0.3s ease;
+}
+
+.nav-list li a {
+    padding: 15px;
+    display: block;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.nav-list li:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+nav ul li:last-child {
+    border-bottom: none;
+}
+
+body.nav-open {
+    overflow: hidden;
+}
+
+.logo h1 {
+    font-size: 1.2em;
+    color: #4b7bd0;
+}
+
+.nav-toggle i {
+    font-size: 9vw;
+    color: #4b7bd0;
+}
+
+ */
+
+
+
+ /* Mobile View */
+.nav-toggle {
+    display: flex;
+    background-color: transparent;
+    cursor: pointer;
+    z-index: 2;
+    color: #000;
+}
+
+.nav-list {
+    display: none;
+    flex-direction: column;
+    width: 75%;
+    max-width: 250px;
+    position: fixed;
+    top: 37%;
+    /* left: 12%; */
+    right: 0%;
+    /* background: rgba(255, 255, 255, 0);  */
+    background-color: #fff;
+    z-index: 1;
+    padding: 20px 0;
+    border-radius: 8px 0 0 8px;
+    transform: translateY(-50%);
+    transition: right 0.3s ease;
+    /* align-items: center; */
+   
+}
+
+.nav-list.nav-list-visible {
+    display: flex;
+    right: 0;
+}
+
+.nav-list li {
+    margin: 0;
+    border-bottom: 1px solid #ddd;
+    transition: background-color 0.3s ease;
+}
+
+.nav-list li a {
+    padding: 15px;
+    display: block;
+    color: black; /* Black text color */
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.nav-list li:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Slight hover effect with transparency */
+}
+
+nav ul li:last-child {
+    border-bottom: none;
+}
+
+body.nav-open {
+    overflow: hidden;
+}
+
+.logo h1 {
+    font-size: 1.2em;
+    color: inherit; /* Keep heading color unchanged */
+}
+
+.nav-toggle i {
+    font-size: 9vw;
+    color: black; /* Ensure the menu icon remains black */
+}
+.propose-idea{
+    background-color: white;
+}
+
+
+
+
+
+    
+
+
+
+
+
+    
 
     .banner {
         /* background-size: contain; */

@@ -782,7 +782,7 @@ body.nav-open {
 
     .grid-item {
         margin: 10px;
-        height: 25vh;
+        height: fit-content;
         width: 75vw;
     }
 
@@ -806,7 +806,7 @@ body.nav-open {
     }
 
     footer {
-        height: 60vh;
+       height: 90vh;
 
     }
 
@@ -869,7 +869,7 @@ body.nav-open {
     .Follow-us {
         position: relative;
         top: 0vh;
-        right: 24vw;
+        right: 33%;
         color: #fff;
     }
 
@@ -914,7 +914,7 @@ body.nav-open {
     .footer-bottom {
         line-height: 0.5;
         text-align: center;
-        margin-top: -15vh;
+        margin-top: 0vh;
 
     }
 
@@ -925,6 +925,7 @@ body.nav-open {
 
     .footer-bottom h4 {
         color: rgba(255, 255, 255, 0.7);
+        line-height: 1.3;
 
     }
 

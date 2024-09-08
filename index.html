@@ -3,185 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>We'll Be Live Soon | Maintenance Mode</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-    <link rel="icon" sizes="32x32" href="/images/favicon.ico">
-     <title>IUB Research & Science Promotion Society</title> 
-     <script src="js/code-hide.js"></script>
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom right, #1c1c1c, #353535);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    overflow: hidden;
+}
+
+.container {
+    text-align: center;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+    max-width: 600px;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #f5b342;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #f1f1f1;
+}
+
+.countdown {
+    margin-top: 2rem;
+}
+
+.highlight {
+    color: #f5b342;
+    font-weight: 500;
+    font-size: 1.5rem;
+    animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.6;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    .highlight {
+        font-size: 1.2rem;
+    }
+}
+
+    </style>
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <img src="images/rsps-logo.png" alt="IUB RSPS Logo">
-            <h1>IUB Research & Science Promotion Society</h1>
-        </div>
-        <nav>
-            <button class="nav-toggle" aria-label="open navigation">
-                <i class="fas fa-bars"></i>
-
-            </button>
-            <ul class="nav-list">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="team.html">Team</a></li>
-                <li><a href="events.html">Events</a></li>
-                <li><a href="blogs.html">Blogs</a></li>
-                <li><a href="about.html">About us</a></li>
-                <li><a href="idea.html" class="propose-idea"> Propose an Idea</a></li>
-            </ul>
-        </nav>
-        <script src="js/script.js"></script>
-    </header>
-    <section class="banner">
-        <div class="banner-content">
-            <h1>IUB Research & Science Promotion Society</h1>
-            <h2>Islamia University Bahawalpur</h2>
-        </div>
-    </section>
-    <main>
-        <div class="activities">
-            <h1>Latest Events & Activities</h1>
-            <div class="slider">
-                <div class="slides">
-                    <img src="Events/Event-1/images/Group1.jpg" alt="Image 1">
-                    <img src="Events/Event-2/images/grid_img4.jpg" alt="Image 2">
-                    <img src="Events/Event-3/images/grid_img4.jpg" alt="Image 3">
-                    <img src="Events/Event-4/images/grid_img1.jpg" alt="Image 4">
-                    <img src="Events/Event-5/images/grid_img1.jpg" alt="Image 5">
-                    <img src="Events/Event-6/images/grid_img5.png" alt="Image 6">
-                </div>
-                <div class="caption">Badge Distribution Ceremony & Society Meeting</div>
-                <div class="indicators">
-                    <div class="indicator active" onclick="currentSlide(0)"></div>
-                    <div class="indicator" onclick="currentSlide(1)"></div>
-                    <div class="indicator" onclick="currentSlide(2)"></div>
-                    <div class="indicator" onclick="currentSlide(3)"></div>
-                    <div class="indicator" onclick="currentSlide(4)"></div>
-                    <div class="indicator" onclick="currentSlide(5)"></div>
-                </div>
-            </div>
-            <script src="js/slider.js"></script>
-        </div>
-            <h3 class="why">Why IUB RSPS?</h3>
-            <div class="container">
-                <div class="grid-container">
-                    <div class="grid-item">
-                    <div class="card-header">
-                        <div class="card-logo">
-                            <img src="images/event.png" alt="Logo">
-                        </div>
-                        <h3>Organize Scientific Events</h3>
-                    </div>
-                    <p>
-                        Plan and execute seminars, conferences, and workshops to foster scientific discussions and
-                        knowledge sharing</p>
-                    </div>
-                    <div class="grid-item">
-                        <div class="card-header">
-                            <div class="card-logo">
-                                <img src="images/bulb.png" alt="Logo">
-                            </div>
-                            <h3>Innovation Challenges</h3>
-                        </div>
-                        <p> Host competitions and hackathons to stimulate innovative thinking and problem-solving</p>
-                    </div>
-                <div class="grid-item">
-                    <div class="card-header">
-                        <div class="card-logo">
-                            <img src="images/collaborative.png" alt="Logo">
-                        </div>
-                        <h3>Collaborative Research</h3>
-                    </div>
-                    <p>Facilitate partnerships and teamwork among researchers and institutions to enhance collaborative
-                        efforts</p>
-                    </div>
-                    <div class="grid-item">
-                    <div class="card-header">
-                        <div class="card-logo">
-                            <img src="images/glass.jpg" alt="Logo">
-                        </div>
-                        <h3>Publish Research Findings</h3>
-                    </div>
-                    <p>Share and disseminate research papers, articles, and findings through journals and online
-                        platforms</p>
-                    </div>
-                <div class="grid-item">
-                    <div class="card-header">
-                        <div class="card-logo">
-                            <img src="images/handshake.png" alt="Logo">
-                        </div>
-                        <h3>Science Outreach Programs</h3>
-                    </div>
-                    <p>Engage with the community through science fairs, public lectures, and educational programs
-                    </p>
-                </div>
-                <div class="grid-item">
-                    <div class="card-header">
-                        <div class="card-logo">
-                            <img src="images/workshop.png" alt="Logo">
-                        </div>
-                        <h3>Research Skills Workshops</h3>
-                    </div>
-                    <p>Offer training sessions and workshops to develop essential research skills, such as data analysis
-                        and scientific writing</p>
-                    </div>
-                </div>
-            </div>
-        </main>
-    <footer>
-        <div class="footer-container">
-            <div class="footer-logo">
-                <div class="rsps-logo"><img src="images/rsps-logo.png" alt=""></div>
-            </div>
-            <div class="footer-links">
-                <div class="links">
-                    <h3>Quick Links</h3>
-                    <ul>
-                        <a href="index.html">
-                            <li>Home</li>
-                        </a>
-                        <a href="about.html">
-                            <li>About</li>
-                        </a>
-                        <a href="team.html">
-                            <li>Team</li>
-                        </a>
-                        <a href="events.html">
-                            <li>Events</li>
-                        </a>
-                        <a href="blogs.html">
-                            <li>Blogs</li>
-                        </a>
-                    </ul>
-                    <div class="Follow-us">
-                        <h4>Follow Us</h4>
-                        <div class="logos">
-                        <a href="https://www.facebook.com/Iubsps"><img src="images/fb.png" alt=""></a>
-                        <a href="https://www.instagram.com/iub_rsps/"><img class="insta" src="images/insta.png"
-                                alt=""></a>
-                        <a href="https://www.linkedin.com/company/iub-research-and-science-promotion-society/"><img src="images/linkedin.png"
-                                alt=""></a>
-                        <a href="https://www.youtube.com/@iubrsps"><img src="images/yt.png"
-                            style="width: 50px; height:50px;" alt="yt logo"></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-contact">
-                <h3>Contact Info</h3>
-                <h4>Address</h2>
-                    <p>Baghdad ul Jadeed Campus <br>
-                    Islamia University Bahwalpur</p>
-                    <h4>Email</h4>
-                    <p>iubsps2022@gmail.com</p>
+    <div class="container">
+        <div class="content">
+            <h1>We wll Be Live Soon!</h1>
+            <p>Our website is almost ready to launch! We're putting the final touches in place to give you the best experience. Stay tuned for something exciting!</p>
+            <div class="countdown">
+                <p><span class="highlight">Launching Soon!</span></p>
             </div>
         </div>
-        <div class="footer-bottom">
-            <h3>Copyright &copy; 2024 All Rights Reserved</h3>
-            <h4>IUB Reserach & Science Promotion Society</h4>
-            <p>This Website is developed by <a href="https://www.linkedin.com/in/sohail28s/" target="_blank">M Sohail Zafar</a></p>
-        </div>
-    </footer>
+    </div>
 </body>
 </html>

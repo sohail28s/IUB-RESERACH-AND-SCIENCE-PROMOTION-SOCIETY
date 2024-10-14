@@ -24,7 +24,7 @@ main{
 .event-info{
     height: 80vh;
     width: 22vw;
-    border: 1px solid green;
+    box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 0.2), 0px 6px 10px 0 rgba(0, 0, 0, 0.19);
 }
 .event-info .event-img img{
     width: 22vw;

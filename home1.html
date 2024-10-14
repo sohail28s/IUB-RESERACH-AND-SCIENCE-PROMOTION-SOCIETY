@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>We'll Be Live Soon | Maintenance Mode</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom right, #1c1c1c, #353535);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    overflow: hidden;
+}
+
+.container {
+    text-align: center;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+    max-width: 600px;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #f5b342;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #f1f1f1;
+}
+
+.countdown {
+    margin-top: 2rem;
+}
+
+.highlight {
+    color: #f5b342;
+    font-weight: 500;
+    font-size: 1.5rem;
+    animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.6;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    .highlight {
+        font-size: 1.2rem;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h1>We will Be Live Soon!</h1>
+            <p>Our website is almost ready to launch! We are putting the final touches in place to give you the best experience. Stay tuned for something exciting!</p>
+            <div class="countdown">
+                <p><span class="highlight">Launching Soon!</span></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
